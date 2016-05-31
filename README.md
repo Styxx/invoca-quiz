@@ -13,6 +13,8 @@ ruby QTProcessor.rb
 * Directory you enter is relative directory from where the script currently is.
 * Script creates new files in folder `new_files` instead of overwriting/renaming given files (as discussed by e-mail).
 * Script modifies all square brackets to parenthesis, regardless of where they are or if supposed to be like that (as discussed by e-mail).
+
+
 ---
 
 
