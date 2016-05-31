@@ -125,10 +125,10 @@ end
 
 
 # DEBUG OUTPUT
-#puts 'Files to modify: '
-#Dir.glob(directory_to_modify+'/*.qt') do |qt_file|
-#    puts qt_file
-#end
+puts 'Files to modify: '
+Dir.glob(directory_to_modify+'/*.qt') do |qt_file|
+    puts qt_file
+end
 
 
 # For every qt_file: generate text file and generate smil file
