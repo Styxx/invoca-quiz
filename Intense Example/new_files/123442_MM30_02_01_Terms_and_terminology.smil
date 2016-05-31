@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil xmlns:qt="http://www.apple.com/quicktime/resources/smilextensions"
+   xmlns="http://www.w3.org/TR/REC-smil" qt:time-slider="true" qt:autoplay="true">
+ <head>
+  <meta name="title" content=""/>
+  <meta name="author" content=""/>
+  <meta name="copyright" content=""/>
+  <layout>
+   <root-layout height="612" width="960" background-color="black"/>
+   <region height="540" width="960" background-color="black" left="0"
+      top="0" id="videoregion"/>
+   <region height="52" width="960" background-color="#000000" left="0"
+      top="540" id="textregion"/>
+    </layout>
+  </head>
+  <body>
+    <par>
+      <video region="videoregion" src="123442_MM30_02_01_Terms_and_terminology.mov" region="video" />
+      <textstream region="textregion" src="123442_MM30_02_01_Terms_and_terminology.qt.txt" region="text" />
+    </par>
+  </body>
+</smil>
